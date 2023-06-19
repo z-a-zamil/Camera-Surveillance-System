@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="{{ url_for('static', filename='style2.css')}}" rel="stylesheet" type="text/css"/>
+    <title>Home</title>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="logo">
+        <img alt="" src="/static/Juba.ico"/>
+    </div>
+    <ul class="menu-bar">
+        <li><a href="/Home">Home</a></li>
+        <li><a href="/Registration">Registration</a></li>
+        <li><a href="/Surveillance">Surveillance</a></li>
+        <li><a href="/Update_Information">Information Update</a></li>
+        <li><a href="#" onclick="encodeFaces()">Encode Faces</a></li>
+        <li><a href="/Main">Log out</a></li>
+        <li><a href="/About_After_LogIn">About Us</a></li>
+    </ul>
+</div>
+
+<script>
+        function encodeFaces() {
+            fetch('/encode')
+            .then(response => response.text())
+            .then(result => {
+                alert(result);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+</script>
+
+<div class="welcome-text">
+    <h1>
+        Welcome to Juba Camera Surveillance System
+        <br><br>
+        <h1 style="color:#ff0000"> {{info}}</h1>
+    </h1>
+</div>
+
+</body>
+</html>

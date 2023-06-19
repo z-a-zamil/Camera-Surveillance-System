@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="{{ url_for('static', filename='Surveillance.css')}}" rel="stylesheet" type="text/css"/>
+    <title>Surveillance</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="logo">
+        <img alt="" src="/static/Juba.ico"/>
+    </div>
+    <ul class="menu-bar">
+        <li><a href="/Home">Home</a></li>
+        <li><a href="/Registration">Registration</a></li>
+        <li><a href="/Surveillance">Surveillance</a></li>
+        <li><a href="/Update_Information">Information Update</a></li>
+        <li><a href="/Main">Log out</a></li>
+        <li><a href="/About_After_LogIn">About Us</a></li>
+    </ul>
+</div>
+
+<div class="welcome-text">
+    <img src="{{ url_for('video_feed') }}">
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Admin Login</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    />
+    <link href="{{ url_for('static', filename='login.css')}}" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+<form action="/login_form" method="POST">
+    <div class="login_form_container">
+        <div class="login_form">
+            <h2>Admin Login</h2>
+            <div class="input_group">
+                <i class="fa fa-user"></i>
+                <input autocomplete="off" class="input_text" name="Username" placeholder="Username" required
+                       type="text"/>
+            </div>
+
+            <div class="input_group">
+                <i class="fa fa-unlock-alt"></i>
+                <input autocomplete="off" class="input_text" name="Password" placeholder="Password" required
+                       type="password"/>
+            </div>
+
+            <div class="button_group" id="login_button">
+                <input name="Submit" style="color:#00ccff" type="submit" value="Log In"></input>
+            </div>
+
+            <div class="fotter">
+                <!-- <a>Forgot Password ?</a> -->
+                <font face="Verdana" size="5" style="color:#05fce4"><a href="/SignUp">Sign Up</a></font>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <h2 style="color:#ff0000">{{info}}</h2>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="login.js"></script>
+</form>
+
+</body>
+</html>
