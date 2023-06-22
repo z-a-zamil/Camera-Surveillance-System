@@ -15,7 +15,12 @@
 ### ***static***
   * This folder contains all **CSS and Image / Icon** files ( ***.css, .ico, .jpge, .jpg, .png*** ) as needed. 
 ### ***main.py***
-  * All necessary codes are implemented here. The description for this code will be completed later on 🙂. 
+  * All necessary codes are implemented here. The description for this code will be completed later on 🙂.
+### ***Working Flowchart***
+This program runs according to this flowchart.
+
+![image](https://github.com/z-a-zamil/Camera-Surveillance-System/assets/72562681/e45bd972-ccb5-458b-93e1-e436d48060e2)
+
 
 ## **Technologies Used**
   * Pycharm IDE
@@ -28,4 +33,4 @@
   * JavaScript
 
 ## **Conclusion**
-  --> This project can be used for surveillance in any institute. It will register the face map along with their information. Then it will check the entry and exit of all members and whether they are valid members at that institute. If not, it will inform the security guard, and they can verify them manually through the previously existing process.
+ This project can be used for surveillance in any institute. It will register the face map along with their information. Then it will check the entry and exit of all members and whether they are valid members at that institute. If not, it will inform the security guard, and they can verify them manually through the previously existing process.
