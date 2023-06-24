@@ -16,7 +16,7 @@
   * This folder contains all **CSS and Image / Icon** files ( ***.css, .ico, .jpge, .jpg, .png*** ) as needed. 
 ### ***main.py***
   * All necessary codes are implemented here. The description for this code will be completed later on 🙂.
-### ***Working Flowchart***
+## ***Working Flowchart***
 This program runs according to this flowchart.
 
 ![image](https://github.com/z-a-zamil/Camera-Surveillance-System/assets/72562681/e45bd972-ccb5-458b-93e1-e436d48060e2)
