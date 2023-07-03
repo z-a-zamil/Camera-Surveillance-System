@@ -15,7 +15,18 @@
 ### ***static***
   * This folder contains all **CSS and Image / Icon** files ( ***.css, .ico, .jpge, .jpg, .png*** ) as needed. 
 ### ***main.py***
-  * All necessary codes are implemented here. The description for this code will be completed later on 🙂.
+  * All necessary codes are implemented here ( 🙂 ) -
+    * **Webpages connection** by creating Flask App and defining routes.
+    * Also following **Functions** are built into this file.
+      * **Signup and Login**
+      * **Registration**
+      * **Information Update**
+      * **Encode**
+      * **Surveillance** 🙂
+        
+    ![image](https://github.com/z-a-zamil/Camera-Surveillance-System/assets/72562681/dab9d5b3-8ac5-4d00-9b40-4c220d063792)
+
+     
 ## ***Working Flowchart***
 This program runs according to this flowchart.
 
