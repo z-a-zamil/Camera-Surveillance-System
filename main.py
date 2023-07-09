@@ -15,7 +15,7 @@ from pymongo import MongoClient
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
 # MongoDB Database Connection
-mongodb_uri = "mongodb+srv://zamilza51:zamilza51@cluster0.msilet9.mongodb.net/?retryWrites=true&w=majority"
+mongodb_uri = "mongodb+srv://<username>:<password>@cluster0.msilet9.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(mongodb_uri)
 # Database Create
 db = client["Security_Surveillance"]
